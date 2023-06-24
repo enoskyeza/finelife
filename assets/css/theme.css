@@ -639,13 +639,14 @@ progress {
 
 @media (min-width: 576px) {
   .container, .container-sm {
-    max-width: 540px;
+    min-width: 576px;
   }
 }
 
 @media (min-width: 768px) {
   .container, .container-sm, .container-md {
-    max-width: 720px;
+    min-width: 768px;
+    width: 100vw;
   }
 }
 
